@@ -1,0 +1,23 @@
+# Site settings
+title: Tvättlappen
+email: hello@zykadelic.com
+# description: ''
+baseurl: '' # the subpath of your site, e.g. /blog/
+url: 'http://tvättlappen.se' # the base hostname & protocol for your site
+twitter_username: zykadelic
+github_username:  zykadelic
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+timezone: UTC
+exclude:
+  - CNAME
+  - Gemfile*
+  - README.md
+  - LICENSE
+defaults:
+  - scope:
+      path: '' # everything
+    values:
+      layout: default
