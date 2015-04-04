@@ -1,11 +1,7 @@
 # Site settings
 title: Tvättlappen.se
-email: hello@zykadelic.com
 # description: ''
-baseurl: '' # the subpath of your site, e.g. /blog/
 url: 'http://tvättlappen.se' # the base hostname & protocol for your site
-twitter_username: zykadelic
-github_username:  zykadelic
 
 # Build settings
 markdown: kramdown
