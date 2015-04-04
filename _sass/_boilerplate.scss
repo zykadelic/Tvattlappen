@@ -1,20 +1,20 @@
 /*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
 
 html {
+    background: #eee;
     color: #222;
     font-size: 1em;
-    line-height: 1.4;
+    font-weight: $fontWeight-normal;
+    font-family: 'Roboto Slab', sans-serif;
+    line-height: normal;
 }
 
-::-moz-selection {
+@mixin selectionStyles {
     background: #b3d4fc;
     text-shadow: none;
 }
-
-::selection {
-    background: #b3d4fc;
-    text-shadow: none;
-}
+::-moz-selection { @include selectionStyles; }
+::selection { @include selectionStyles; }
 
 hr {
     display: block;
@@ -44,57 +44,37 @@ textarea {
     resize: vertical;
 }
 
-.browserupgrade {
-    margin: 0.2em 0;
-    background: #ccc;
-    color: #000;
-    padding: 0.2em 0;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
 }
 
-
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* ==========================================================================
-   Media Queries
-   ========================================================================== */
-
-@media only screen and (min-width: 35em) {
-
+figure {
+    margin: 0;
 }
 
-@media print,
-       (-o-min-device-pixel-ratio: 5/4),
-       (-webkit-min-device-pixel-ratio: 1.25),
-       (min-resolution: 120dpi) {
-
+ul,
+ol {
+    padding: 0;
+    margin: 0;
 }
+
 
 /* ==========================================================================
    Helper classes
    ========================================================================== */
 
-.hidden {
+.u-hidden {
     display: none !important;
     visibility: hidden;
 }
 
-.visuallyhidden {
+.u-visuallyHidden {
     border: 0;
     clip: rect(0 0 0 0);
     height: 1px;
@@ -104,33 +84,37 @@ textarea {
     position: absolute;
     width: 1px;
 }
-
-.visuallyhidden.focusable:active,
-.visuallyhidden.focusable:focus {
-    clip: auto;
-    height: auto;
-    margin: 0;
-    overflow: visible;
-    position: static;
-    width: auto;
+.u-visuallyHidden--focusable {
+    &:active,
+    &:focus {
+        clip: auto;
+        height: auto;
+        margin: 0;
+        overflow: visible;
+        position: static;
+        width: auto;
+    }
 }
 
-.invisible {
+.u-invisible {
     visibility: hidden;
 }
 
-.clearfix:before,
-.clearfix:after {
-    content: " ";
-    display: table;
-}
-
-.clearfix:after {
-    clear: both;
-}
-
-.clearfix {
+%clearfix {
     *zoom: 1;
+
+    &:after {
+        clear: both;
+    }
+    &:before,
+    &:after {
+        content: ' ';
+        display: table;
+    }
+}
+
+.u-clr {
+    @extend %clearfix;
 }
 
 /* ==========================================================================
