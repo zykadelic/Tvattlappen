@@ -2,15 +2,15 @@
   care_tags:
   - description: Endast handtvätt
     image_path: http://placekitten.com/g/288/240
-    alt_text: Symbol
+    alt_text: Vattenbalja med hand i
 
   - description: Kan vattentvättas i maskin eller för hand
     image_path: http://placekitten.com/g/288/240
-    alt_text: Symbol
+    alt_text: Vattenbalja med gradantal
 
   - description: Kan inte vattentvättas
     image_path: http://placekitten.com/g/288/240
-    alt_text: Symbol
+    alt_text: Kryssad vattenbalja
 
 - name: Kemtvätt
 - name: Blekning
