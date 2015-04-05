@@ -7,6 +7,10 @@ body { padding-bottom: 40px; }
 	margin: 16px auto;
 }
 
+.careTagCategory {
+	list-style: none;
+}
+
 .careTag {
 	padding: $careTag-padding;
 	margin-bottom: 12px;
