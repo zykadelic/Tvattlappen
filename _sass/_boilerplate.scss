@@ -1,8 +1,8 @@
 /*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
 
 html {
-    background: #eee;
-    color: #222;
+    background: $backgroundColor;
+    color: $fontColor;
     font-size: 1em;
     font-weight: $fontWeight-normal;
     font-family: 'Roboto Slab', sans-serif;
@@ -10,7 +10,7 @@ html {
 }
 
 @mixin selectionStyles {
-    background: #b3d4fc;
+    background: $selectColor;
     text-shadow: none;
 }
 ::-moz-selection { @include selectionStyles; }
@@ -20,7 +20,7 @@ hr {
     display: block;
     height: 1px;
     border: 0;
-    border-top: 1px solid #ccc;
+    border-top: 1px solid $backgroundColor;
     margin: 1em 0;
     padding: 0;
 }

@@ -23,7 +23,7 @@ body {
 }
 .careTag--header,
 .careTag--footer {
-	color: #999;
+	color: $fontColor-light;
 	text-align: center;
 }
 .careTag--header {
@@ -47,7 +47,7 @@ body {
 	}
 }
 .careTag-inner--shaded {
-	background: #f7f7f7;
+	background: $backgroundColor-light;
 }
 
 .careTag-symbol {
