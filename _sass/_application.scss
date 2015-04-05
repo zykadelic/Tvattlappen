@@ -41,6 +41,10 @@ body {
 	// for use with <a> tags
 	color: inherit;
 	text-decoration: none;
+
+	& + & {
+		padding-top: 10px;
+	}
 }
 
 .careTag-symbol {
