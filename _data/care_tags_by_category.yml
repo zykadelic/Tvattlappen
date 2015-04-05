@@ -1,14 +1,17 @@
 - name: Vattentvätt
   care_tags:
-  - name: Symbol
-    description: Endast handtvätt
+  - description: Endast handtvätt
     image_path: http://placekitten.com/g/288/240
-  - name: Symbol
-    description: Kan vattentvättas i maskin eller för hand
+    alt_text: Symbol
+
+  - description: Kan vattentvättas i maskin eller för hand
     image_path: http://placekitten.com/g/288/240
-  - name: Symbol
-    description: Kan inte vattentvättas
+    alt_text: Symbol
+
+  - description: Kan inte vattentvättas
     image_path: http://placekitten.com/g/288/240
+    alt_text: Symbol
+
 - name: Kemtvätt
 - name: Blekning
 - name: Torkning
