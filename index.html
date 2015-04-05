@@ -7,9 +7,11 @@
 			<ul>
 				{% for careTag in category.care_tags %}
 					<li class="careTag">
-						<img src="{{ careTag.image_path }}" alt="{{ careTag.alt_text }}" class="careTag-symbol">
-						<div class="careTag-description">
-							{{ careTag.description | markdownify }}
+						<div class="careTag-inner">
+							<img src="{{ careTag.image_path }}" alt="{{ careTag.alt_text }}" class="careTag-symbol">
+							<div class="careTag-description">
+								{{ careTag.description | markdownify }}
+							</div>
 						</div>
 					</li>
 				{% endfor %}

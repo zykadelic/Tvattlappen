@@ -1,5 +1,3 @@
-$careTag-padding: 15px 10px;
-
 body {
 	padding: 0 10px 40px;
 }
@@ -15,16 +13,13 @@ body {
 
 .careTag {
 	display: block;
-	padding: $careTag-padding;
+	overflow: hidden;
 	margin-bottom: 12px;
 	border-radius: 3px;
 	box-shadow: 0 0 3px rgba(#000, .2);
 	background: #fff;
 	list-style: none;
 	font-size: 16px;
-}
-.careTag--fullLink {
-	padding: 0;
 }
 .careTag--header,
 .careTag--footer {
@@ -39,9 +34,11 @@ body {
 	font-size: 14px;
 }
 
-.careTag-fullLink {
+.careTag-inner {
 	display: block;
-	padding: $careTag-padding;
+	padding: 15px 10px;
+
+	// for use with <a> tags
 	color: inherit;
 	text-decoration: none;
 }
