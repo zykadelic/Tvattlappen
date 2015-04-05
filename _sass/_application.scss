@@ -22,15 +22,16 @@
 }
 .careTag--header,
 .careTag--footer {
+	width: auto;
 	color: $fontColor-light;
-	text-align: center;
 }
 .careTag--header {
 	font-size: 18px;
 }
 .careTag--footer {
-	margin-top: 24px;
+	float: right;
 	font-size: 14px;
+	text-align: right;
 }
 
 .careTag-inner {
