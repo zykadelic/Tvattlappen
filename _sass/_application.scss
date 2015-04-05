@@ -1,4 +1,4 @@
-$careTag-padding: 6px;
+$careTag-padding: 15px 10px;
 
 body { padding-bottom: 40px; }
 
@@ -47,15 +47,15 @@ body { padding-bottom: 40px; }
 	display: block;
 	max-width: 100%;
 	height: auto;
-	margin: 0 auto 5px;
+	margin: 0 auto;
 }
 
 .careTag-description {
-	padding: 3px 0;
+	margin-top: 15px;
 	text-align: center;
 	orphans: 3;
 
 	p + p {
-		padding-top: 5px;
+		padding-top: 8px;
 	}
 }
