@@ -15,7 +15,3 @@ $selectColor:		#b3d4fc;
 
 @import url('http://fonts.googleapis.com/css?family=Roboto+Slab:#{$fontWeight-normal},#{$fontWeight-bold}');
 @import 'normalize.min', 'boilerplate', 'application';
-
-.u-bold {
-	font-weight: $fontWeight-bold;
-}
