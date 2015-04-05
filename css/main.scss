@@ -6,12 +6,12 @@
 $fontWeight-normal: 300;
 $fontWeight-bold:   600;
 
-$backgroundColor:		#eee;
-$backgroundColor-light:	#f7f7f7;
+$backgroundColor:		hsl(205, 25, 91);
+$backgroundColor-light:	hsl(204, 33, 97);
 
-$fontColor:			#222;
-$fontColor-light:	#999;
-$selectColor:		#b3d4fc;
+$fontColor:			hsl(204, 11, 18);
+$fontColor-light:	hsl(204, 11, 45);
+$selectColor:		hsl(206, 82, 63);
 
 @import url('http://fonts.googleapis.com/css?family=Roboto+Slab:#{$fontWeight-normal},#{$fontWeight-bold}');
 @import 'normalize.min', 'boilerplate', 'application';
