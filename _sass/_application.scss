@@ -1,9 +1,11 @@
 $careTag-padding: 15px 10px;
 
-body { padding-bottom: 40px; }
+body {
+	padding: 0 10px 40px;
+}
 
 .column {
-	width: 300px;
+	max-width: 600px;
 	margin: 16px auto;
 }
 
@@ -45,7 +47,8 @@ body { padding-bottom: 40px; }
 
 .careTag-symbol {
 	display: block;
-	max-width: 100%;
+	width: 100%;
+	max-width: 300px;
 	height: auto;
 	margin: 0 auto;
 }
