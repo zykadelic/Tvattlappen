@@ -9,9 +9,9 @@
 					<li class="careTag">
 						<div class="careTag-inner">
 							<img src="{{ careTag.image_path }}" alt="{{ careTag.alt_text }}" class="careTag-symbol">
-							<div class="careTag-description">
-								{{ careTag.description | markdownify }}
-							</div>
+						</div>
+						<div class="careTag-description careTag-inner">
+							{{ careTag.description | markdownify }}
 						</div>
 					</li>
 				{% endfor %}
