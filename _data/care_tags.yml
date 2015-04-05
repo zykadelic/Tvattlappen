@@ -1,0 +1,11 @@
+- name: Symbol
+  description: Endast handtvätt
+  image_path: http://placekitten.com/g/288/240
+
+- name: Symbol
+  description: Kan vattentvättas i maskin eller för hand
+  image_path: http://placekitten.com/g/288/240
+
+- name: Symbol
+  description: Kan inte vattentvättas
+  image_path: http://placekitten.com/g/288/240
