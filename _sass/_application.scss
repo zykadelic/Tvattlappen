@@ -54,4 +54,8 @@ body { padding-bottom: 40px; }
 	padding: 3px 0;
 	text-align: center;
 	orphans: 3;
+
+	p + p {
+		padding-top: 5px;
+	}
 }

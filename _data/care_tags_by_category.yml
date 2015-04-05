@@ -34,7 +34,11 @@
     image_path: http://placekitten.com/g/288/240
     alt_text: Cirkel med “P” i
 
-  - description: Wet-Clean (kemtvätt i vatten). Ska inte förväxlas med vanlig kemtvätt. Ska utföras av professionellt tvätteri.
+  - description: |
+      Wet-Clean (kemtvätt i vatten)
+      
+      Ska inte förväxlas med vanlig kemtvätt. Ska utföras av professionellt tvätteri.
+
     image_path: http://placekitten.com/g/288/240
     alt_text: Cirkel med “W” i
 
