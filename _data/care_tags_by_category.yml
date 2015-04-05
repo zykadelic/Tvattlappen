@@ -1,109 +1,109 @@
 - name: Vattentvätt
   care_tags:
   - description: Endast handtvätt
-    image_path: http://placekitten.com/g/288/240
+    image_path: /img/care-tags/water-wash-hand.svg
     alt_text: Vattenbalja med hand i
 
   - description: Kan vattentvättas i maskin eller för hand
-    image_path: http://placekitten.com/g/288/240
+    image_path: /img/care-tags/water-wash.svg
     alt_text: Vattenbalja med gradantal (gradantalet varierar)
 
   - description: Halvfylld maskin med kort centrifugering
-    image_path: http://placekitten.com/g/288/240
+    image_path: /img/care-tags/water-wash-short-centrifuge.svg
     alt_text: Vattenbalja med gradantal, ett streck under baljan
 
   - description: Halvfylld maskin med varsam behandling
-    image_path: http://placekitten.com/g/288/240
+    image_path: /img/care-tags/water-wash-care.svg
     alt_text: Vattenbalja med gradantal, två streck under baljan
 
   - description: Kan inte vattentvättas
-    image_path: http://placekitten.com/g/288/240
+    image_path: /img/care-tags/water-wash-none.svg
     alt_text: Kryssad vattenbalja
 
 - name: Kemtvätt
   care_tags:
   - description: Kan kemtvättas
-    image_path: http://placekitten.com/g/288/240
+    image_path: /img/care-tags/dry-clean.svg
     alt_text: Cirkel
 
   - description: Tål alla tvättvätskor
-    image_path: http://placekitten.com/g/288/240
+    image_path: /img/care-tags/dry-clean-a.svg
     alt_text: Cirkel med “A” i
 
   - description: Tål inte starkare tvättvätskor än perkloretylen
-    image_path: http://placekitten.com/g/288/240
+    image_path: /img/care-tags/dry-clean-p.svg
     alt_text: Cirkel med “P” i
 
   - description: |
       Wet-Clean (kemtvätt i vatten)
-      
+
       Ska inte förväxlas med vanlig kemtvätt. Ska utföras av professionellt tvätteri.
 
-    image_path: http://placekitten.com/g/288/240
+    image_path: /img/care-tags/dry-clean-w.svg
     alt_text: Cirkel med “W” i
 
   - description: Kan inte kemtvättas
-    image_path: http://placekitten.com/g/288/240
+    image_path: /img/care-tags/dry-clean-none.svg
     alt_text: Kryssad cirkel
 
 - name: Blekning
   care_tags:
   - description: Kan blekas
-    image_path: http://placekitten.com/g/288/240
+    image_path: /img/care-tags/bleach.svg
     alt_text: Triangel
 
   - description: Kan klorblekas
-    image_path: http://placekitten.com/g/288/240
+    image_path: /img/care-tags/bleach-chlorine.svg
     alt_text: Tringel med “CL” i
 
   - description: Tål inte klorblekning
-    image_path: http://placekitten.com/g/288/240
+    image_path: /img/care-tags/bleach-none.svg
     alt_text: Kryssad triangel
 
 - name: Torkning
   care_tags:
   - description: Torktumling i låg temperatur
-    image_path: http://placekitten.com/g/288/240
+    image_path: /img/care-tags/drying-dryer-low.svg
     alt_text: Cirkel i kvadrat med en prick i
 
   - description: Torktumling i normal temperatur
-    image_path: http://placekitten.com/g/288/240
+    image_path: /img/care-tags/drying-dryer.svg
     alt_text: Cirkel i kvadrat med två prickar i
 
   - description: Hängtorkning
-    image_path: http://placekitten.com/g/288/240
+    image_path: /img/care-tags/drying-hang.svg
     alt_text: Kvadrat med ett böjt streck i toppen
 
   - description: Plantorkning
-    image_path: http://placekitten.com/g/288/240
+    image_path: /img/care-tags/drying-plane.svg
     alt_text: Kvadrat med ett vågrätt streck i
 
   - description: Dropptorkning
-    image_path: http://placekitten.com/g/288/240
+    image_path: /img/care-tags/drying-drip.svg
     alt_text: Kvadrat med tre lodräta streck i
 
   - description: Kan inte torkas i solen
-    image_path: http://placekitten.com/g/288/240
+    image_path: /img/care-tags/drying-no-sun.svg
     alt_text: Kvadrat med två diagonala streck i övre vänstra hörnet
 
   - description: Kan inte torktumlas
-    image_path: http://placekitten.com/g/288/240
+    image_path: /img/care-tags/drying-none.svg
     alt_text: Kryssad cirkel i kvadrat
 
 - name: Strykning
   care_tags:
   - description: Strykning med låg temperatur (max 100°C)
-    image_path: http://placekitten.com/g/288/240
+    image_path: /img/care-tags/ironing-low.svg
     alt_text: Strykjärn med en prick i
 
   - description: Strykning med mellan temperatur (max 150°C)
-    image_path: http://placekitten.com/g/288/240
+    image_path: /img/care-tags/ironing-medium.svg
     alt_text: Strykjärn med två prickar i
 
   - description: Strykning med hög temperatur (max 200°C)
-    image_path: http://placekitten.com/g/288/240
+    image_path: /img/care-tags/ironing-high.svg
     alt_text: Strykjärn med tre prickar i
 
   - description: Kan inte strykas
-    image_path: http://placekitten.com/g/288/240
+    image_path: /img/care-tags/ironing-none.svg
     alt_text: Kryssat strykjärn
