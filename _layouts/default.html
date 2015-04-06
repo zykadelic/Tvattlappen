@@ -20,9 +20,14 @@
 <body>
 	<div class="column u-clr">
 		<header class="careTag">
-			<a href="/" class="pageTitle careTag-inner">
-				{{ site.title }}
-			</a>
+			<div class="careTag-inner">
+				<a href="/" class="pageTitle">
+					{{ site.title }}
+				</a>
+				<span class="pageCta">
+					&mdash; Klicka på en symbol
+				</span>
+			</div>
 
 			<nav class="careTag-inner careTag-inner--gridContent">
 				{% for category in site.data.care_tags_by_category %}
