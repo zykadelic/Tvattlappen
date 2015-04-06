@@ -1,7 +1,7 @@
-$careTagInner-xPadding: 15px;
-$careTagInner-yPadding: 10px;
-$careTagInner-xPadding--grid: 10px;
-$careTagInner-yPadding--grid: 5px;
+$careTagInner-xPadding: 10px;
+$careTagInner-yPadding: 15px;
+$careTagInner-xPadding--grid: 5px;
+$careTagInner-yPadding--grid: 10px;
 
 .column {
 	max-width: 600px;
@@ -81,11 +81,12 @@ $careTagInner-yPadding--grid: 5px;
 	width: 100%;
 	max-width: 300px;
 	height: auto;
+	padding: 10px 0;
 	margin: 0 auto;
 }
 
 .careTag-description {
-	padding-top: 10px;
+	padding: 5px 0;
 	text-align: center;
 }
 

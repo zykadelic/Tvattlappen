@@ -26,8 +26,10 @@
 						<div class="careTag-inner careTag-inner--shaded">
 							<img src="{{ careTag.image_path }}" alt="{{ careTag.alt_text }}" class="careTag-symbol">
 						</div>
-						<div class="careTag-description careTag-inner markdownify">
-							{{ careTag.description | markdownify }}
+						<div class="careTag-inner">
+							<div class="careTag-description markdownify">
+								{{ careTag.description | markdownify }}
+							</div>
 						</div>
 					</li>
 				{% endfor %}
