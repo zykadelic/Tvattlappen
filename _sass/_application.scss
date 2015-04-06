@@ -1,5 +1,8 @@
 $careTagInner-verticalPadding: 15px;
 $careTagInner-verticalPadding--grid: 10px;
+$careTagPreview-size: 43px;
+$careTagPreview-horizontalPadding: 5px;
+$careTagPreview-verticalPadding: $careTagInner-verticalPadding - $careTagInner-verticalPadding--grid;
 
 .column {
 	max-width: 600px;
@@ -24,20 +27,19 @@ $careTagInner-verticalPadding--grid: 10px;
 }
 
 .careTagPreview {
-	$size: 32px;
-	$verticalPadding: $careTagInner-verticalPadding - $careTagInner-verticalPadding--grid;
-
+	box-sizing: border-box;
 	display: inline-block;
-	width: $size;
-	height: $size;
-	padding: 5px $verticalPadding;
-	line-height: $size - 1px;
+	width: $careTagPreview-size;
+	height: $careTagPreview-size;
+	padding: $careTagPreview-horizontalPadding $careTagPreview-verticalPadding;
+	line-height: $careTagPreview-size - ($careTagPreview-verticalPadding * 2) - 1px;
 }
 
 .careTagPreview-symbol {
 	width: 100%;
+	max-width: $careTagPreview-size - ($careTagPreview-verticalPadding * 2);
 	height: auto;
-	max-height: 100%;
+	max-height: $careTagPreview-size - ($careTagPreview-horizontalPadding * 2);
 	line-height: normal;
 }
 
