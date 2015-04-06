@@ -6,6 +6,8 @@ url: 'http://tvättlappen.se' # the base hostname & protocol for your site
 # Build settings
 markdown: kramdown
 permalink: pretty
+sass:
+  style: :compressed
 timezone: UTC
 exclude:
   - CNAME
