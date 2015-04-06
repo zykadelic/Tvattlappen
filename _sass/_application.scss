@@ -1,6 +1,31 @@
+$careTagInner-xPadding: 15px;
+$careTagInner-yPadding: 10px;
+$careTagInner-xPadding--grid: 10px;
+$careTagInner-yPadding--grid: 5px;
+
 .column {
 	max-width: 600px;
 	margin: 16px auto;
+}
+
+
+.careTagPreview {
+	$size: 32px;
+	$xPadding: $careTagInner-xPadding - $careTagInner-xPadding--grid;
+	$yPadding: $careTagInner-yPadding - $careTagInner-yPadding--grid;
+
+	display: inline-block;
+	width: $size;
+	height: $size;
+	padding: $xPadding $yPadding;
+	line-height: $size - 1px;
+}
+
+.careTagPreview-symbol {
+	width: 100%;
+	height: auto;
+	max-height: 100%;
+	line-height: normal;
 }
 
 .careTagCategory {
@@ -37,7 +62,7 @@
 
 .careTag-inner {
 	display: block;
-	padding: 15px 10px;
+	padding: $careTagInner-xPadding $careTagInner-yPadding;
 
 	// for use with <a> tags
 	color: inherit;
@@ -49,6 +74,10 @@
 }
 .careTag-inner--shaded {
 	background: $backgroundColor-light;
+}
+.careTag-inner--gridContent {
+	padding: $careTagInner-xPadding--grid $careTagInner-yPadding--grid;
+	text-align: justify;
 }
 
 .careTag-symbol {
