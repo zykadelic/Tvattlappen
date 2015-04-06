@@ -7,15 +7,17 @@ $careTagInner-verticalPadding--grid: 10px;
 }
 
 .pageTitle {
-	color: $fontColor-light !important; // FIXME Make sure .careTag-inner doesn't override color
+	color: $fontColor-light;
 	font-size: 18px;
 	font-weight: $fontWeight-bold;
+	text-decoration: none;
 }
 .pageFooter {
-	color: $fontColor-light !important; // FIXME Make sure .careTag-inner doesn't override color
+	color: $fontColor-light;
 	font-size: 14px;
 	font-weight: $fontWeight-bold;
 	text-align: right;
+	text-decoration: none;
 }
 
 .careTagPreview {
@@ -62,10 +64,6 @@ $careTagInner-verticalPadding--grid: 10px;
 .careTag-inner {
 	display: block;
 	padding: 10px $careTagInner-verticalPadding;
-
-	// for use with <a> tags
-	color: inherit;
-	text-decoration: none;
 }
 .careTag-inner--shaded {
 	background: $backgroundColor-light;
