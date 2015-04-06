@@ -11,6 +11,12 @@ $careTagInner-verticalPadding--grid: 10px;
 	font-size: 18px;
 	font-weight: $fontWeight-bold;
 }
+.pageFooter {
+	color: $fontColor-light !important; // FIXME Make sure .careTag-inner doesn't override color
+	font-size: 14px;
+	font-weight: $fontWeight-bold;
+	text-align: right;
+}
 
 .careTagPreview {
 	$size: 32px;
@@ -48,12 +54,9 @@ $careTagInner-verticalPadding--grid: 10px;
 	list-style: none;
 	font-size: 16px;
 }
-.careTag--footer {
-	float: right;
+.careTag--pullRight {
 	width: auto;
-	color: $fontColor-light;
-	font-size: 14px;
-	text-align: right;
+	float: right;
 }
 
 .careTag-inner {
