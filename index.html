@@ -5,7 +5,10 @@
 	{% for category in site.data.care_tags_by_category %}
 		<li class="careTagCategory">
 			<ul class="u-clr">
-				{% for careTag in category.care_tags %}
+				{% for careTagHash in category.care_tags %}
+					{% assign identifier = careTagHash[0] %}
+					{% assign careTag = careTagHash[1] %}
+
 					<li class="careTag">
 						<div class="careTag-inner careTag-inner--shaded">
 							<img src="{{ careTag.image_path }}" alt="{{ careTag.alt_text }}" class="careTag-symbol">
