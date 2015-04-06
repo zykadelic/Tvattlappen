@@ -24,7 +24,7 @@
 				{{ site.title }}
 			</a>
 
-			<nav class="careTag-inner careTag-inner--gridContent u-clr">
+			<nav class="careTag-inner careTag-inner--gridContent">
 				{% for category in site.data.care_tags_by_category %}
 					{% for careTagHash in category.care_tags %}
 						{% assign identifier = careTagHash[0] %}
