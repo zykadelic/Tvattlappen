@@ -1,6 +1,4 @@
-$careTagInner-xPadding: 10px;
 $careTagInner-yPadding: 15px;
-$careTagInner-xPadding--grid: 5px;
 $careTagInner-yPadding--grid: 10px;
 
 .column {
@@ -11,13 +9,12 @@ $careTagInner-yPadding--grid: 10px;
 
 .careTagPreview {
 	$size: 32px;
-	$xPadding: $careTagInner-xPadding - $careTagInner-xPadding--grid;
 	$yPadding: $careTagInner-yPadding - $careTagInner-yPadding--grid;
 
 	display: inline-block;
 	width: $size;
 	height: $size;
-	padding: $xPadding $yPadding;
+	padding: 5px $yPadding;
 	line-height: $size - 1px;
 }
 
@@ -62,7 +59,7 @@ $careTagInner-yPadding--grid: 10px;
 
 .careTag-inner {
 	display: block;
-	padding: $careTagInner-xPadding $careTagInner-yPadding;
+	padding: 10px $careTagInner-yPadding;
 
 	// for use with <a> tags
 	color: inherit;
@@ -72,7 +69,8 @@ $careTagInner-yPadding--grid: 10px;
 	background: $backgroundColor-light;
 }
 .careTag-inner--gridContent {
-	padding: $careTagInner-xPadding--grid $careTagInner-yPadding--grid;
+	padding-right: $careTagInner-yPadding--grid;
+	padding-left: $careTagInner-yPadding--grid;
 	text-align: justify;
 }
 
