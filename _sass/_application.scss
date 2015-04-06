@@ -77,6 +77,12 @@ $careTagPreview-verticalPadding: $careTagInner-verticalPadding - $careTagInner-v
 	padding-left: $careTagInner-verticalPadding--grid;
 	text-align: justify;
 }
+.careTag-inner--noTop {
+	padding-top: 0;
+}
+.careTag-inner--noBottom {
+	padding-bottom: 0;
+}
 
 .careTag-symbol {
 	display: block;

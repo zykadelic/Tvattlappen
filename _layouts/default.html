@@ -20,7 +20,7 @@
 <body>
 	<div class="column u-clr">
 		<header class="careTag">
-			<div class="careTag-inner">
+			<div class="careTag-inner careTag-inner--noBottom">
 				<a href="/" class="pageTitle">
 					{{ site.title }}
 				</a>
@@ -29,7 +29,7 @@
 				</span>
 			</div>
 
-			<nav class="careTag-inner careTag-inner--gridContent">
+			<nav class="careTag-inner careTag-inner--noTop careTag-inner--gridContent">
 				{% for category in site.data.care_tags_by_category %}
 					{% for careTagHash in category.care_tags %}
 						{% assign identifier = careTagHash[0] %}
