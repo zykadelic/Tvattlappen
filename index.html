@@ -1,19 +1,6 @@
 ---
 ---
 
-<nav class="careTag careTag-inner careTag-inner--gridContent u-clr">
-	{% for category in site.data.care_tags_by_category %}
-		{% for careTagHash in category.care_tags %}
-			{% assign identifier = careTagHash[0] %}
-			{% assign careTag = careTagHash[1] %}
-
-			<a href="{{ identifier | replace: '_', '-' | prepend: '#' }}" class="careTagPreview">
-				<img src="{{ careTag.image_path }}" alt="{{ careTag.alt_text }}" class="careTagPreview-symbol">
-			</a>
-		{% endfor %}
-	{% endfor %}
-</nav>
-
 <ul>
 	{% for category in site.data.care_tags_by_category %}
 		<li class="careTagCategory">
