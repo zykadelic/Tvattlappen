@@ -6,6 +6,11 @@ $careTagInner-verticalPadding--grid: 10px;
 	margin: 16px auto;
 }
 
+.pageTitle {
+	color: $fontColor-light !important; // FIXME Make sure .careTag-inner doesn't override color
+	font-size: 18px;
+	font-weight: $fontWeight-bold;
+}
 
 .careTagPreview {
 	$size: 32px;
@@ -43,16 +48,10 @@ $careTagInner-verticalPadding--grid: 10px;
 	list-style: none;
 	font-size: 16px;
 }
-.careTag--header,
-.careTag--footer {
-	width: auto;
-	color: $fontColor-light;
-}
-.careTag--header {
-	font-size: 18px;
-}
 .careTag--footer {
 	float: right;
+	width: auto;
+	color: $fontColor-light;
 	font-size: 14px;
 	text-align: right;
 }
