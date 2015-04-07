@@ -13,7 +13,7 @@
 	<meta property="og:site_name" content="{{ site.title }}">
 	<meta property="og:title" content="{{ site.title }}">
 	<meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-	<meta property="og:image" content="{{ '/og-image.png' | prepend: site.url }}">
+	<meta property="og:image" content="{{ '/og-image-wide.png' | prepend: site.url }}">
 
 	<link rel="stylesheet" href="/css/main.css">
 	<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
