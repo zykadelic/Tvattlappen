@@ -2,6 +2,7 @@
 title: Tvättlappen
 # description: ''
 url: 'http://www.tvättlappen.se' # the base hostname & protocol for your site
+ascii_url: 'http://www.xn--tvttlappen-r5a.se'
 
 # Build settings
 markdown: kramdown
