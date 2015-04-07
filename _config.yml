@@ -1,7 +1,7 @@
 # Site settings
 title: Tvättlappen
 # description: ''
-url: 'http://tvättlappen.se' # the base hostname & protocol for your site
+url: 'http://www.tvättlappen.se' # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
