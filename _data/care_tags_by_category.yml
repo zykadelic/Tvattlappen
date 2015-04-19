@@ -49,10 +49,20 @@
       image_path: /img/care-tags/dry-clean.svg
       alt_text: Cirkel
 
+    dry_clean_care:
+      description: Kan kemtvättas med en begränsning på vattentillsättning, torktemperatur och hantering
+      image_path: /img/care-tags/dry-clean-care.svg
+      alt_text: Cirkel med ett streck under
+
     dry_clean_a:
       description: Tål alla tvättvätskor
       image_path: /img/care-tags/dry-clean-a.svg
       alt_text: Cirkel med “A” i
+
+    dry_clean_f:
+      description: Tål inte starkare medel än flourväta och tvättnafta (numera förbjudet)
+      image_path: /img/care-tags/dry-clean-f.svg
+      alt_text: Cirkel med “F” i
 
     dry_clean_p:
       description: Tål inte starkare tvättvätskor än perkloretylen
@@ -84,6 +94,11 @@
       image_path: /img/care-tags/bleach-chlorine.svg
       alt_text: Tringel med “CL” i
 
+    bleach_chlorine:
+      description: Kan blekas men utan klorin
+      image_path: /img/care-tags/bleach-no-chlorine.svg
+      alt_text: Tringel med två diagonala streck genom
+
     bleach_none:
       description: Blekmedel får ej användas
       image_path: /img/care-tags/bleach-none.svg
@@ -96,6 +111,11 @@
 
 - name: Torkning
   care_tags:
+    drying_dryer_no_heat:
+      description: Torktumling utan värme
+      image_path: /img/care-tags/drying-dryer-no-heat.svg
+      alt_text: Ifylld cirkel i kvadrat
+
     drying_dryer_low:
       description: Torktumling i låg temperatur
       image_path: /img/care-tags/drying-dryer-low.svg
