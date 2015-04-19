@@ -6,18 +6,12 @@
       alt_text: Vattenbalja med hand i
 
     water_wash_short_centrifuge:
-      description: |
-        Vattentvättas med halvfylld maskin och kort centrifugering
-
-        Siffrorna bestämmer gradantalet
+      description: Vattentvättas med halvfylld maskin och kort centrifugering
       image_path: /img/care-tags/water-wash-short-centrifuge.svg
       alt_text: Vattenbalja med gradantal, ett streck under baljan
 
     water_wash_care:
-      description: |
-        Vattentvättas med halvfylld maskin och varsam behandling
-
-        Siffrorna bestämmer gradantalet
+      description: Vattentvättas med halvfylld maskin och varsam behandling
       image_path: /img/care-tags/water-wash-care.svg
       alt_text: Vattenbalja med gradantal, två streck under baljan
 
