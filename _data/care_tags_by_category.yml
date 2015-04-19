@@ -72,6 +72,11 @@
       image_path: /img/care-tags/bleach-none.svg
       alt_text: Kryssad triangel
 
+    bleach_none_filled:
+      description: Blekmedel får ej användas
+      image_path: /img/care-tags/bleach-none-filled.svg
+      alt_text: Kryssad ifylld triangel
+
 - name: Torkning
   care_tags:
     drying_dryer_low:
