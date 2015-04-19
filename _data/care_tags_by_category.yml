@@ -13,6 +13,14 @@
       image_path: /img/care-tags/water-wash.svg
       alt_text: Vattenbalja med gradantal (gradantalet varierar)
 
+    water_wash_dot:
+      description: |
+        Kan vattentvättas i maskin eller för hand
+
+        Prickarna bestämmer gradantalet
+      image_path: /img/care-tags/water-wash-dot.svg
+      alt_text: Vattenbalja med en prick i (antalet prickar varierar)
+
     water_wash_short_centrifuge:
       description: |
         Halvfylld maskin med kort centrifugering
