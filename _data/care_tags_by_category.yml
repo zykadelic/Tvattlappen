@@ -68,7 +68,7 @@
       alt_text: Tringel med “CL” i
 
     bleach_none:
-      description: Tål inte klorblekning
+      description: Blekmedel får ej användas
       image_path: /img/care-tags/bleach-none.svg
       alt_text: Kryssad triangel
 
