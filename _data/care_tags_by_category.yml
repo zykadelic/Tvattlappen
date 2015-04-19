@@ -5,6 +5,27 @@
       image_path: /img/care-tags/water-wash-hand.svg
       alt_text: Vattenbalja med hand i
 
+    water_wash_short_centrifuge:
+      description: |
+        Vattentvättas med halvfylld maskin och kort centrifugering
+
+        Siffrorna bestämmer gradantalet
+      image_path: /img/care-tags/water-wash-short-centrifuge.svg
+      alt_text: Vattenbalja med gradantal, ett streck under baljan
+
+    water_wash_care:
+      description: |
+        Vattentvättas med halvfylld maskin och varsam behandling
+
+        Siffrorna bestämmer gradantalet
+      image_path: /img/care-tags/water-wash-care.svg
+      alt_text: Vattenbalja med gradantal, två streck under baljan
+
+    water_wash_none:
+      description: Får inte vattentvättas
+      image_path: /img/care-tags/water-wash-none.svg
+      alt_text: Kryssad vattenbalja
+
     water_wash:
       description: |
         Kan vattentvättas i maskin eller för hand
@@ -21,27 +42,6 @@
       image_path: /img/care-tags/water-wash-dot.svg
       alt_text: Vattenbalja med en prick i (antalet prickar varierar)
 
-    water_wash_short_centrifuge:
-      description: |
-        Halvfylld maskin med kort centrifugering
-
-        Siffrorna bestämmer gradantalet
-      image_path: /img/care-tags/water-wash-short-centrifuge.svg
-      alt_text: Vattenbalja med gradantal, ett streck under baljan
-
-    water_wash_care:
-      description: |
-        Halvfylld maskin med varsam behandling
-
-        Siffrorna bestämmer gradantalet
-      image_path: /img/care-tags/water-wash-care.svg
-      alt_text: Vattenbalja med gradantal, två streck under baljan
-
-    water_wash_none:
-      description: Kan inte vattentvättas
-      image_path: /img/care-tags/water-wash-none.svg
-      alt_text: Kryssad vattenbalja
-
 - name: Kemtvätt
   care_tags:
     dry_clean:
@@ -54,18 +54,23 @@
       image_path: /img/care-tags/dry-clean-care.svg
       alt_text: Cirkel med ett streck under
 
+    dry_clean_none:
+      description: Får inte kemtvättas
+      image_path: /img/care-tags/dry-clean-none.svg
+      alt_text: Kryssad cirkel
+
     dry_clean_a:
-      description: Tål alla tvättvätskor
+      description: Kan kemtvättas med alla tvättvätskor
       image_path: /img/care-tags/dry-clean-a.svg
       alt_text: Cirkel med “A” i
 
     dry_clean_f:
-      description: Tål inte starkare medel än flourväta och tvättnafta (numera förbjudet)
+      description: Kan kemtvättas men inte med medel starkare än flourväta eller tvättnafta (numera förbjudet)
       image_path: /img/care-tags/dry-clean-f.svg
       alt_text: Cirkel med “F” i
 
     dry_clean_p:
-      description: Tål inte starkare tvättvätskor än perkloretylen
+      description: Kan kemtvättas men inte med tvättvätskor starkare än perkloretylen
       image_path: /img/care-tags/dry-clean-p.svg
       alt_text: Cirkel med “P” i
 
@@ -76,11 +81,6 @@
         Ska inte förväxlas med vanlig kemtvätt. Ska utföras av professionellt tvätteri.
       image_path: /img/care-tags/dry-clean-w.svg
       alt_text: Cirkel med “W” i
-
-    dry_clean_none:
-      description: Kan inte kemtvättas
-      image_path: /img/care-tags/dry-clean-none.svg
-      alt_text: Kryssad cirkel
 
 - name: Blekning
   care_tags:
@@ -112,63 +112,63 @@
 - name: Torkning
   care_tags:
     drying_dryer_no_heat:
-      description: Torktumling utan värme
+      description: Kan torktumlas utan värme
       image_path: /img/care-tags/drying-dryer-no-heat.svg
       alt_text: Ifylld cirkel i kvadrat
 
     drying_dryer_low:
-      description: Torktumling i låg temperatur
+      description: Kan torktumlas i låg temperatur
       image_path: /img/care-tags/drying-dryer-low.svg
       alt_text: Cirkel i kvadrat med en prick i
 
     drying_dryer:
-      description: Torktumling i normal temperatur
+      description: Kan torktumlas i normal temperatur
       image_path: /img/care-tags/drying-dryer.svg
       alt_text: Cirkel i kvadrat med två prickar i
 
+    drying_none:
+      description: Får inte torktumlas
+      image_path: /img/care-tags/drying-none.svg
+      alt_text: Kryssad cirkel i kvadrat
+
     drying_hang:
-      description: Hängtorkning
+      description: Hängtorkas
       image_path: /img/care-tags/drying-hang.svg
       alt_text: Kvadrat med ett böjt streck i toppen
 
     drying_plane:
-      description: Plantorkning
+      description: Plantorkas
       image_path: /img/care-tags/drying-plane.svg
       alt_text: Kvadrat med ett vågrätt streck i
 
     drying_drip:
-      description: Dropptorkning
+      description: Dropptorkas
       image_path: /img/care-tags/drying-drip.svg
       alt_text: Kvadrat med tre lodräta streck i
 
     drying_no_sun:
-      description: Kan inte torkas i solen
+      description: Får inte torkas i solen
       image_path: /img/care-tags/drying-no-sun.svg
       alt_text: Kvadrat med två diagonala streck i övre vänstra hörnet
-
-    drying_none:
-      description: Kan inte torktumlas
-      image_path: /img/care-tags/drying-none.svg
-      alt_text: Kryssad cirkel i kvadrat
 
 - name: Strykning
   care_tags:
     ironing_low:
-      description: Strykning med låg temperatur (max 100°C)
+      description: Kan strykas med låg temperatur (max 100°C)
       image_path: /img/care-tags/ironing-low.svg
       alt_text: Strykjärn med en prick i
 
     ironing_medium:
-      description: Strykning med mellan temperatur (max 150°C)
+      description: Kan strykas med mellan temperatur (max 150°C)
       image_path: /img/care-tags/ironing-medium.svg
       alt_text: Strykjärn med två prickar i
 
     ironing_high:
-      description: Strykning med hög temperatur (max 200°C)
+      description: Kan strykas med hög temperatur (max 200°C)
       image_path: /img/care-tags/ironing-high.svg
       alt_text: Strykjärn med tre prickar i
 
     ironing_none:
-      description: Kan inte strykas
+      description: Får inte strykas
       image_path: /img/care-tags/ironing-none.svg
       alt_text: Kryssat strykjärn
